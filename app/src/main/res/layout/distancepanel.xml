@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:background="@drawable/distancepnl"
+        android:padding="20dp">
+
+        <ImageView
+
+            android:id="@+id/menuIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon"
+            android:clickable="false"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="@string/ChooseDistanceLbl"
+            android:textColor="#3D3B3C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="@string/developer"
+            android:textColor="#3D3B3C"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/distanceCheck"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checkedButton="@+id/meter_50"
+        android:padding="20dp">
+
+        <RadioButton
+            android:id="@+id/meter_50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:buttonTint="#3D3B3C"
+            android:text="@string/Meters50Lbl"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/meter_100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:buttonTint="#3D3B3C"
+            android:text="@string/Meters100Lbl"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/meter_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:buttonTint="#3D3B3C"
+            android:text="@string/Meters200Lbl"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+
+</LinearLayout>

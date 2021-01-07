@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="40dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/HeatRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:padding="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/heatNrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#3D3B3C"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/heatN"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:text="@string/heatInitial" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lanes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+
+
+            <TextView
+                android:id="@+id/lane1lblshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:text="@string/itemsLane1" />
+
+            <TextView
+                android:id="@+id/lane2lblshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:text="@string/itemsLane2" />
+
+            <TextView
+                android:id="@+id/lane3lblshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/itemsLane3"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lane4lblshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/itemsLane4"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:textSize="18sp" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/records"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+
+
+            <TextView
+                android:id="@+id/lane1recordsshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:text="@string/IntialTimeLbl" />
+
+            <TextView
+                android:id="@+id/lane2recordsshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:text="@string/IntialTimeLbl" />
+
+            <TextView
+                android:id="@+id/lane3recordsshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/IntialTimeLbl"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lane4recordsshow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/IntialTimeLbl"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#3D3B3C"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

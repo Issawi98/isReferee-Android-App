@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/meter50"
+        android:title="50 Meter"
+        android:textSize="18sp"
+
+
+        />
+    <item
+        android:id="@+id/meter100"
+        android:title="100 Meter"
+        android:textSize="18sp"
+        />
+    <item
+        android:id="@+id/meter200"
+        android:title="200 Meter"
+        android:textSize="18sp"
+        />
+</menu>

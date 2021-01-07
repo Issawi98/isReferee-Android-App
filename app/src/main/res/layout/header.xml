@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:background="@drawable/option5"
+        android:padding="20dp">
+
+        <ImageView
+
+            android:id="@+id/menuIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/icon"
+            android:clickable="false"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="@string/app_name"
+            android:textColor="#3D3B3C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="@string/developer"
+            android:textColor="#3D3B3C"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center_vertical"
+       android:padding="10dp">
+
+       <TextView
+           android:id="@+id/userNameNav"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text= "@string/internalHomeLbl"
+           android:textSize="14sp"
+           android:padding="12dp"
+           android:layout_marginStart="16dp"/>
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginEnd="48dp"
+           android:src="@drawable/home"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/userMailNav"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text= "@string/internalEmailLbl"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/email"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:onClick="GoToRecords">
+
+        <TextView
+            android:id="@+id/goToRecords"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text= "@string/internalRecordsLbl"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/timer"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:onClick="GoToGetSpecificRecord">
+
+        <TextView
+            android:id="@+id/goToGetRecord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text= "@string/getButton"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/specific"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/userLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:onClick="LogOut">
+
+        <TextView
+            android:id="@+id/userLogoutNav"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text= "@string/logoutBtn"
+            android:padding="12dp"
+            android:textSize="14sp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/logout"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

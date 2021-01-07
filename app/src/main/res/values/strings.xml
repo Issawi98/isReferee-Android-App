@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">IsReferee</string>
+    <string name="developer">By Abdelrahman Issawi</string>
+    <string name="emailplaceholder">Email Address</string>
+    <string name="passplaceholder">Password</string>
+    <string name="loginBtn">LOGIN</string>
+    <string name="logoutBtn">LOGOUT</string>
+    <string name="createAccount">CREATE ACCOUNT</string>
+    <string name="fullName">Full Name</string>
+    <string name="phone">PhoneNumber</string>
+    <string name="registerType1">Register as Referee</string>
+    <string name="registerType2">Register as Manager</string>
+    <string name="loginpath">Already have an account?, login now. </string>
+    <string name="createpath">Not A Registered Referee?, Register now! </string>
+    <string name="channelName">Heat Finished</string>
+    <string name="channelDesc">The running heat is over now.</string>
+    <string name="raceDistanceLbl">Race Distance: </string>
+    <string name="heatNumberLbl">Heat Number</string>
+    <string name="IntialTimeLbl">00:00:00</string>
+    <string name="ChooseDistanceLbl">Choose the Distance</string>
+    <string name="Meters50Lbl">50 Meter</string>
+    <string name="Meters100Lbl">100 Meter</string>
+    <string name="Meters200Lbl">200 Meter</string>
+
+    <string name="internalHomeLbl">Home</string>
+    <string name="internalEmailLbl">Email</string>
+    <string name="internalRecordsLbl">Records</string>
+    <string name="internalLogoutLbl">Logout</string>
+
+    <string name="itemsLane1">Lane 1</string>
+    <string name="itemsLane2">Lane 2</string>
+    <string name="itemsLane3">Lane 3</string>
+    <string name="itemsLane4">Lane 4</string>
+
+    <string name="heatInitial">Heat#</string>
+    <string name="LaneInitial">Lane#</string>
+    <string name="title_activity_get_record">GetRecord</string>
+
+    <string name="heatToGet">Heat Number</string>
+    <string name="LaneToGet">Lane Number</string>
+    <string name="getButton">Get Record</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
