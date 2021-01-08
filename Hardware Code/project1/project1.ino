@@ -2,8 +2,8 @@
 #include <FirebaseArduino.h>
 
 // Set these to run example.
-#define WIFI_SSID "doda"
-#define WIFI_PASSWORD "@170570r"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
 #define FIREBASE_HOST "isreferee-5a163-default-rtdb.firebaseio.com" 
 #define FIREBASE_AUTH "NZwshtu141DeKMPzueCdDZu8ef5OPiJpraBXdSmi"
 
